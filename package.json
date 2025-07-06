@@ -1,0 +1,26 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index_back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index_back.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manjeet-Godara/Url_shortner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manjeet-Godara/Url_shortner/issues"
+  },
+  "homepage": "https://github.com/Manjeet-Godara/Url_shortner#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "nodeman": "^1.1.2"
+  }
+}
