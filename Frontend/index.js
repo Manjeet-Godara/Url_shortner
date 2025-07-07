@@ -11,10 +11,10 @@ button.addEventListener("click",async ()=>{
         })
         const a2=await a.text()
         console.log("successfully sent the request and the id is ",a2)
-        output.innerText=`http://localhost:8000/shorten/:${a2}`
+        output.innerText=`http://localhost:8000/shorten/${a2}`
     }
     catch(err){
         console.log("error occured")
-        alert("Some error occured")
+        alert("Did not recieve updated url form the server")
     }
 }) 

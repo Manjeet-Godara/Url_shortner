@@ -5,4 +5,10 @@ const userSchema=new mongoose.Schema({
     original:{type:String,required:true},
 })
 const user=mongoose.model("user",userSchema) 
-module.exports = user;
+
+const count=new mongoose.Schema({
+    name:{type:String},
+    next_id:{type:Number,default:1}
+})
+const counter=mongoose.model("count",count)
+module.exports = {user,counter}; 
